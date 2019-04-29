@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="647.4374999999999" y="0.0">escuadron.Unidad</node>
+    <node x="564.2499999999999" y="455.0">principal.Principal</node>
+    <node x="804.0" y="210.5">escuadron.Medico</node>
+    <node x="536.2499999999999" y="354.0">principal.ApEscuadron</node>
+    <node x="601.9999999999999" y="210.5">escuadron.Soldado</node>
+    <node x="444.99999999999994" y="210.5">escuadron.Coronel</node>
+    <node x="0.0" y="188.0">principal.Enemigos</node>
+    <node x="244.0" y="210.5">escuadron.Artillero</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="principal.ApEscuadron" target="escuadron.Artillero">
+      <point x="-25.125" y="-25.5" />
+      <point x="578.1249999999999" y="314.0" />
+      <point x="334.5" y="314.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="principal.Principal" target="principal.ApEscuadron">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="principal.ApEscuadron" target="escuadron.Coronel">
+      <point x="-8.375" y="-25.5" />
+      <point x="594.8749999999999" y="304.0" />
+      <point x="513.5" y="304.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="principal.ApEscuadron" target="principal.Enemigos">
+      <point x="-58.625" y="-25.5" />
+      <point x="544.6249999999999" y="334.0" />
+      <point x="56.0" y="334.0" />
+      <point x="-56.0" y="48.0" />
+    </edge>
+    <edge source="escuadron.Medico" target="escuadron.Unidad">
+      <point x="-44.75" y="-25.5" />
+      <point x="848.75" y="168.0" />
+      <point x="765.3819444444443" y="168.0" />
+      <point x="21.444444444444457" y="59.0" />
+    </edge>
+    <edge source="escuadron.Soldado" target="escuadron.Unidad">
+      <point x="-45.50000000000003" y="-25.5" />
+      <point x="647.4999999999999" y="168.0" />
+      <point x="722.4930555555554" y="168.0" />
+      <point x="-21.444444444444457" y="59.0" />
+    </edge>
+    <edge source="principal.ApEscuadron" target="escuadron.Unidad">
+      <point x="58.625" y="-25.5" />
+      <point x="661.8749999999999" y="334.0" />
+      <point x="1004.4999999999999" y="334.0" />
+      <point x="1004.4999999999999" y="138.0" />
+      <point x="829.7152777777776" y="138.0" />
+      <point x="85.77777777777777" y="59.0" />
+    </edge>
+    <edge source="escuadron.Artillero" target="escuadron.Unidad">
+      <point x="-45.25" y="-25.5" />
+      <point x="289.25" y="138.0" />
+      <point x="658.1597222222222" y="138.0" />
+      <point x="-85.77777777777777" y="59.0" />
+    </edge>
+    <edge source="principal.ApEscuadron" target="escuadron.Soldado">
+      <point x="8.375" y="-25.5" />
+      <point x="611.6249999999999" y="304.0" />
+      <point x="692.9999999999999" y="304.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="principal.ApEscuadron" target="escuadron.Medico">
+      <point x="25.125" y="-25.5" />
+      <point x="628.3749999999999" y="314.0" />
+      <point x="893.5" y="314.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="escuadron.Coronel" target="escuadron.Unidad">
+      <point x="0.0" y="-25.5" />
+      <point x="513.5" y="158.0" />
+      <point x="701.048611111111" y="158.0" />
+      <point x="-42.888888888888914" y="59.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="502.5" y="242.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
